@@ -1,0 +1,20 @@
+{
+    "name": "ousmane/demo-form-validation-beberlei",
+    "description": "Ce projet a pour but de vous montrer comment faire la validation d'un formulaire a l'aide de la librarie assert/beberlei",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dia-ousmane19",
+            "email": "ousmanedia846@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    },
+    "require": {
+        "beberlei/assert": "^3.3"
+    }
+}
